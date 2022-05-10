@@ -1,0 +1,9 @@
+var kartinka = document.querySelector('img');
+kartinka.onclick = function() {
+	var msrc = kartinka.getAttribute('src');
+	if(msrc === 'img/neon.jpg') {
+		kartinka.setAttribute('src','img/nneon.jpg');
+	} else {
+		kartinka.setAttribute('src','img/neon.jpg');
+	}
+}

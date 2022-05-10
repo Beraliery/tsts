@@ -1,0 +1,25 @@
+html {
+	font-size: 16px;
+	background-image: url(https://klike.net/uploads/posts/2020-01/1579682553_2.jpg);
+	font-family: 'Roboto Slab', serif;
+}
+h1 {
+
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 5px 5px 10px pink;
+}
+
+p {
+  font-size: 36px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+p, li {
+	color: pink;
+}
+body {
+	margin: 0;
+	padding: 0 30px 3px 30px;
+	border: 10px solid gray;
+}
